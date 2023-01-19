@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function Login() {
   const handleClick = async () => {
     const clientId = "43ab1a17d4af4d8aa4a9bc15e5898b36";
-    const redirect_uri = "https://spotify-clone-api.netlify.app/";
+    const redirect_uri = "https://app-spotify-clone.netlify.app";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",
